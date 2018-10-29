@@ -39,6 +39,7 @@
 
   var selectVar = function(v) {
     vars.currentVar = v;
+    incVar();
     setVars();
   };
 
